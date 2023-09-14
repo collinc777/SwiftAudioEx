@@ -205,7 +205,6 @@ public class AudioPlayer: AVPlayerWrapperDelegate {
      Start playback
      */
     public func play() {
-        wrapper.rate = 1
         wrapper.play()
     }
 
@@ -213,7 +212,6 @@ public class AudioPlayer: AVPlayerWrapperDelegate {
      Pause playback
      */
     public func pause() {
-        wrapper.rate = 0
         wrapper.pause()
     }
 
